@@ -29,7 +29,7 @@ The Basic Profile defines a standard for storing a DID's basic profile informati
 
 ## Specification
 
-The Basic Profile is simply a *definition* where the record holds the data of the user. Therefore the schma defined in the *definition* describes the profile itself.
+The Basic Profile is a *definition* where the record holds the data of the user. Therefore the schema defined in the *definition* describes the profile itself.
 
 ### Definition content
 
@@ -206,7 +206,7 @@ const profile = await ceramic.createDocument('tile', {
 
 ## Rationale
 
-**Decentralization & Trust:** In order for profile information to be universally resolved and publicly available across all platforms., it should be stored on a globally-available, permissionless, and censorship-resistant network (not on any single server). Additionally this information should be owned by a DID and will need to be updated from time to time. These requirements make Ceramic the most appropriate platform for publishing profile content.
+**Decentralization & Trust:** In order for profile information to be universally resolved and publicly available across all platforms, it should be stored on a globally-available, permissionless, and censorship-resistant network (not on any single server). Additionally this information should be owned by a DID and will need to be updated from time to time. These requirements make Ceramic the most appropriate platform for publishing profile content.
 
 
 ## Implementation
